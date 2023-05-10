@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-colors",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.1.2",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^4.1.1",
+    "@vitejs/plugin-vue": "^4.2.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.2.8",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.4"
+  }
+}
