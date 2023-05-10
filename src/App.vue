@@ -11,7 +11,7 @@
 
     <main v-else class="flex h-screen">
         <!-- Slate -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-slate-50" to-be-copied="#f8fafc">#f8fafc</ColorSquare>
             <ColorSquare class="bg-slate-100" to-be-copied="#f1f5f9">#f1f5f9</ColorSquare>
             <ColorSquare class="bg-slate-200" to-be-copied="#e2e8f0">#e2e8f0</ColorSquare>
@@ -26,7 +26,7 @@
         </div>
 
         <!-- Gray -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-gray-50" to-be-copied="#f9fafb">#f9fafb</ColorSquare>
             <ColorSquare class="bg-gray-100" to-be-copied="#f3f4f6">#f3f4f6</ColorSquare>
             <ColorSquare class="bg-gray-200" to-be-copied="#e5e7eb">#e5e7eb</ColorSquare>
@@ -41,7 +41,7 @@
         </div>
 
         <!-- Zinc -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-zinc-50" to-be-copied="#fafafa">#fafafa</ColorSquare>
             <ColorSquare class="bg-zinc-100" to-be-copied="#f4f4f5">#f4f4f5</ColorSquare>
             <ColorSquare class="bg-zinc-200" to-be-copied="#e4e4e7">#e4e4e7</ColorSquare>
@@ -56,7 +56,7 @@
         </div>
 
         <!-- Neutral -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-neutral-50" to-be-copied="#fafafa">#fafafa</ColorSquare>
             <ColorSquare class="bg-neutral-100" to-be-copied="#f5f5f5">#f5f5f5</ColorSquare>
             <ColorSquare class="bg-neutral-200" to-be-copied="#e5e5e5">#e5e5e5</ColorSquare>
@@ -71,7 +71,7 @@
         </div>
 
         <!-- Stone -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-stone-50" to-be-copied="#fafaf9">#fafaf9</ColorSquare>
             <ColorSquare class="bg-stone-100" to-be-copied="#f5f5f4">#f5f5f4</ColorSquare>
             <ColorSquare class="bg-stone-200" to-be-copied="#e7e5e4">#e7e5e4</ColorSquare>
@@ -86,7 +86,7 @@
         </div>
 
         <!-- Red -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-red-50" to-be-copied="#fef2f2">#fef2f2</ColorSquare>
             <ColorSquare class="bg-red-100" to-be-copied="#fee2e2">#fee2e2</ColorSquare>
             <ColorSquare class="bg-red-200" to-be-copied="#fecaca">#fecaca</ColorSquare>
@@ -101,7 +101,7 @@
         </div>
 
         <!-- Orange -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-orange-50" to-be-copied="#fff7ed">#fff7ed</ColorSquare>
             <ColorSquare class="bg-orange-100" to-be-copied="#ffedd5">#ffedd5</ColorSquare>
             <ColorSquare class="bg-orange-200" to-be-copied="#fed7aa">#fed7aa</ColorSquare>
@@ -116,7 +116,7 @@
         </div>
 
         <!-- Amber -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-amber-50" to-be-copied="#fffbeb">#fffbeb</ColorSquare>
             <ColorSquare class="bg-amber-100" to-be-copied="#fef3c7">#fef3c7</ColorSquare>
             <ColorSquare class="bg-amber-200" to-be-copied="#fde68a">#fde68a</ColorSquare>
@@ -131,7 +131,7 @@
         </div>
 
         <!-- Yellow -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-yellow-50" to-be-copied="#fefce8">#fefce8</ColorSquare>
             <ColorSquare class="bg-yellow-100" to-be-copied="#fef9c3">#fef9c3</ColorSquare>
             <ColorSquare class="bg-yellow-200" to-be-copied="#fef08a">#fef08a</ColorSquare>
@@ -146,7 +146,7 @@
         </div>
 
         <!-- Lime -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-lime-50" to-be-copied="#f7fee7">#f7fee7</ColorSquare>
             <ColorSquare class="bg-lime-100" to-be-copied="#ecfccb">#ecfccb</ColorSquare>
             <ColorSquare class="bg-lime-200" to-be-copied="#d9f99d">#d9f99d</ColorSquare>
@@ -161,7 +161,7 @@
         </div>
 
         <!-- Green -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-green-50" to-be-copied="#f0fdf4">#f0fdf4</ColorSquare>
             <ColorSquare class="bg-green-100" to-be-copied="#dcfce7">#dcfce7</ColorSquare>
             <ColorSquare class="bg-green-200" to-be-copied="#bbf7d0">#bbf7d0</ColorSquare>
@@ -176,7 +176,7 @@
         </div>
 
         <!-- Emerald -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-emerald-50" to-be-copied="#ecfdf5">#ecfdf5</ColorSquare>
             <ColorSquare class="bg-emerald-100" to-be-copied="#d1fae5">#d1fae5</ColorSquare>
             <ColorSquare class="bg-emerald-200" to-be-copied="#a7f3d0">#a7f3d0</ColorSquare>
@@ -191,7 +191,7 @@
         </div>
 
         <!-- Teal -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-teal-50" to-be-copied="#f0fdfa">#f0fdfa</ColorSquare>
             <ColorSquare class="bg-teal-100" to-be-copied="#ccfbf1">#ccfbf1</ColorSquare>
             <ColorSquare class="bg-teal-200" to-be-copied="#99f6e4">#99f6e4</ColorSquare>
@@ -206,7 +206,7 @@
         </div>
 
         <!-- Cyan -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-cyan-50" to-be-copied="#ecfeff">#ecfeff</ColorSquare>
             <ColorSquare class="bg-cyan-100" to-be-copied="#cffafe">#cffafe</ColorSquare>
             <ColorSquare class="bg-cyan-200" to-be-copied="#a5f3fc">#a5f3fc</ColorSquare>
@@ -221,7 +221,7 @@
         </div>
 
         <!-- Sky -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-sky-50" to-be-copied="#f0f9ff">#f0f9ff</ColorSquare>
             <ColorSquare class="bg-sky-100" to-be-copied="#e0f2fe">#e0f2fe</ColorSquare>
             <ColorSquare class="bg-sky-200" to-be-copied="#bae6fd">#bae6fd</ColorSquare>
@@ -236,7 +236,7 @@
         </div>
 
         <!-- Blue -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-blue-50" to-be-copied="#eff6ff">#eff6ff</ColorSquare>
             <ColorSquare class="bg-blue-100" to-be-copied="#dbeafe">#dbeafe</ColorSquare>
             <ColorSquare class="bg-blue-200" to-be-copied="#bfdbfe">#bfdbfe</ColorSquare>
@@ -251,7 +251,7 @@
         </div>
 
         <!-- Indigo -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-indigo-50" to-be-copied="#eef2ff">#eef2ff</ColorSquare>
             <ColorSquare class="bg-indigo-100" to-be-copied="#e0e7ff">#e0e7ff</ColorSquare>
             <ColorSquare class="bg-indigo-200" to-be-copied="#c7d2fe">#c7d2fe</ColorSquare>
@@ -266,7 +266,7 @@
         </div>
 
         <!-- Violet -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-violet-50" to-be-copied="#f5f3ff">#f5f3ff</ColorSquare>
             <ColorSquare class="bg-violet-100" to-be-copied="#ede9fe">#ede9fe</ColorSquare>
             <ColorSquare class="bg-violet-200" to-be-copied="#ddd6fe">#ddd6fe</ColorSquare>
@@ -281,7 +281,7 @@
         </div>
 
         <!-- Purple -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-purple-50" to-be-copied="#faf5ff">#faf5ff</ColorSquare>
             <ColorSquare class="bg-purple-100" to-be-copied="#f3e8ff">#f3e8ff</ColorSquare>
             <ColorSquare class="bg-purple-200" to-be-copied="#e9d5ff">#e9d5ff</ColorSquare>
@@ -296,7 +296,7 @@
         </div>
 
         <!-- Fuchsia -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-fuchsia-50" to-be-copied="#fdf4ff">#fdf4ff</ColorSquare>
             <ColorSquare class="bg-fuchsia-100" to-be-copied="#fae8ff">#fae8ff</ColorSquare>
             <ColorSquare class="bg-fuchsia-200" to-be-copied="#f5d0fe">#f5d0fe</ColorSquare>
@@ -311,7 +311,7 @@
         </div>
 
         <!-- Pink -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-pink-50" to-be-copied="#fdf2f8">#fdf2f8</ColorSquare>
             <ColorSquare class="bg-pink-100" to-be-copied="#fce7f3">#fce7f3</ColorSquare>
             <ColorSquare class="bg-pink-200" to-be-copied="#fbcfe8">#fbcfe8</ColorSquare>
@@ -326,7 +326,7 @@
         </div>
 
         <!-- Rose -->
-        <div class="grid h-full w-96">
+        <div class="grid w-96">
             <ColorSquare class="bg-rose-50" to-be-copied="#fff1f2">#fff1f2</ColorSquare>
             <ColorSquare class="bg-rose-100" to-be-copied="#ffe4e6">#ffe4e6</ColorSquare>
             <ColorSquare class="bg-rose-200" to-be-copied="#fecdd3">#fecdd3</ColorSquare>
