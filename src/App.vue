@@ -5,8 +5,8 @@
         class="flex h-screen w-screen flex-col items-center justify-center gap-5 bg-slate-900 p-5 text-white">
         <h1 class="text-center text-5xl">Tailwind Colors</h1>
         <h2 class="text-2xl italic">by Andrea Damiani</h2>
-        <Icon icon="material-symbols:mobile-off-rounded" class="text-9xl" />
-        <h2 class="text-center text-3xl">Quest'app è utilizzabile solo su uno schermo grande.</h2>
+        <Icon icon="solar:smartphone-rotate-orientation-linear" class="text-9xl" />
+        <h2 class="text-center text-3xl">Put your device in Landscape Mode in order to use this app.</h2>
     </div>
 
     <main v-else class="flex h-screen">
