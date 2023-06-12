@@ -11,8 +11,8 @@
 <script setup>
 import { useClipboard } from "@vueuse/core";
 
-import { Icon } from '@iconify/vue';
-import doneRounded from '@iconify-icons/material-symbols/done-rounded';
+import { Icon } from "@iconify/vue";
+import doneRounded from "@iconify-icons/material-symbols/done-rounded";
 
 defineProps(["toBeCopied"]);
 

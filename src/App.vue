@@ -11,7 +11,7 @@
 
     <main v-else class="flex h-screen">
         <!-- Slate -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-slate-50" to-be-copied="#f8fafc">#f8fafc</ColorSquare>
             <ColorSquare class="bg-slate-100" to-be-copied="#f1f5f9">#f1f5f9</ColorSquare>
             <ColorSquare class="bg-slate-200" to-be-copied="#e2e8f0">#e2e8f0</ColorSquare>
@@ -23,10 +23,10 @@
             <ColorSquare class="bg-slate-800" to-be-copied="#1e293b">#1e293b</ColorSquare>
             <ColorSquare class="bg-slate-900" to-be-copied="#0f172a">#0f172a</ColorSquare>
             <ColorSquare class="bg-slate-950" to-be-copied="#020617">#020617</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Gray -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-gray-50" to-be-copied="#f9fafb">#f9fafb</ColorSquare>
             <ColorSquare class="bg-gray-100" to-be-copied="#f3f4f6">#f3f4f6</ColorSquare>
             <ColorSquare class="bg-gray-200" to-be-copied="#e5e7eb">#e5e7eb</ColorSquare>
@@ -38,10 +38,10 @@
             <ColorSquare class="bg-gray-800" to-be-copied="#1f2937">#1f2937</ColorSquare>
             <ColorSquare class="bg-gray-900" to-be-copied="#111827">#111827</ColorSquare>
             <ColorSquare class="bg-gray-950" to-be-copied="#030712">#030712</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Zinc -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-zinc-50" to-be-copied="#fafafa">#fafafa</ColorSquare>
             <ColorSquare class="bg-zinc-100" to-be-copied="#f4f4f5">#f4f4f5</ColorSquare>
             <ColorSquare class="bg-zinc-200" to-be-copied="#e4e4e7">#e4e4e7</ColorSquare>
@@ -53,10 +53,10 @@
             <ColorSquare class="bg-zinc-800" to-be-copied="#27272a">#27272a</ColorSquare>
             <ColorSquare class="bg-zinc-900" to-be-copied="#18181b">#18181b</ColorSquare>
             <ColorSquare class="bg-zinc-950" to-be-copied="#09090b">#09090b</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Neutral -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-neutral-50" to-be-copied="#fafafa">#fafafa</ColorSquare>
             <ColorSquare class="bg-neutral-100" to-be-copied="#f5f5f5">#f5f5f5</ColorSquare>
             <ColorSquare class="bg-neutral-200" to-be-copied="#e5e5e5">#e5e5e5</ColorSquare>
@@ -68,10 +68,10 @@
             <ColorSquare class="bg-neutral-800" to-be-copied="#262626">#262626</ColorSquare>
             <ColorSquare class="bg-neutral-900" to-be-copied="#171717">#171717</ColorSquare>
             <ColorSquare class="bg-neutral-950" to-be-copied="#0a0a0a">#0a0a0a</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Stone -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-stone-50" to-be-copied="#fafaf9">#fafaf9</ColorSquare>
             <ColorSquare class="bg-stone-100" to-be-copied="#f5f5f4">#f5f5f4</ColorSquare>
             <ColorSquare class="bg-stone-200" to-be-copied="#e7e5e4">#e7e5e4</ColorSquare>
@@ -83,10 +83,10 @@
             <ColorSquare class="bg-stone-800" to-be-copied="#292524">#292524</ColorSquare>
             <ColorSquare class="bg-stone-900" to-be-copied="#1c1917">#1c1917</ColorSquare>
             <ColorSquare class="bg-stone-950" to-be-copied="#0c0a09">#0c0a09</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Red -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-red-50" to-be-copied="#fef2f2">#fef2f2</ColorSquare>
             <ColorSquare class="bg-red-100" to-be-copied="#fee2e2">#fee2e2</ColorSquare>
             <ColorSquare class="bg-red-200" to-be-copied="#fecaca">#fecaca</ColorSquare>
@@ -98,10 +98,10 @@
             <ColorSquare class="bg-red-800" to-be-copied="#991b1b">#991b1b</ColorSquare>
             <ColorSquare class="bg-red-900" to-be-copied="#7f1d1d">#7f1d1d</ColorSquare>
             <ColorSquare class="bg-red-950" to-be-copied="#450a0a">#450a0a</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Orange -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-orange-50" to-be-copied="#fff7ed">#fff7ed</ColorSquare>
             <ColorSquare class="bg-orange-100" to-be-copied="#ffedd5">#ffedd5</ColorSquare>
             <ColorSquare class="bg-orange-200" to-be-copied="#fed7aa">#fed7aa</ColorSquare>
@@ -113,10 +113,10 @@
             <ColorSquare class="bg-orange-800" to-be-copied="#9a3412">#9a3412</ColorSquare>
             <ColorSquare class="bg-orange-900" to-be-copied="#7c2d12">#7c2d12</ColorSquare>
             <ColorSquare class="bg-orange-950" to-be-copied="#431407">#431407</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Amber -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-amber-50" to-be-copied="#fffbeb">#fffbeb</ColorSquare>
             <ColorSquare class="bg-amber-100" to-be-copied="#fef3c7">#fef3c7</ColorSquare>
             <ColorSquare class="bg-amber-200" to-be-copied="#fde68a">#fde68a</ColorSquare>
@@ -128,10 +128,10 @@
             <ColorSquare class="bg-amber-800" to-be-copied="#92400e">#92400e</ColorSquare>
             <ColorSquare class="bg-amber-900" to-be-copied="#78350f">#78350f</ColorSquare>
             <ColorSquare class="bg-amber-950" to-be-copied="#451a03">#451a03</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Yellow -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-yellow-50" to-be-copied="#fefce8">#fefce8</ColorSquare>
             <ColorSquare class="bg-yellow-100" to-be-copied="#fef9c3">#fef9c3</ColorSquare>
             <ColorSquare class="bg-yellow-200" to-be-copied="#fef08a">#fef08a</ColorSquare>
@@ -143,10 +143,10 @@
             <ColorSquare class="bg-yellow-800" to-be-copied="#854d0e">#854d0e</ColorSquare>
             <ColorSquare class="bg-yellow-900" to-be-copied="#713f12">#713f12</ColorSquare>
             <ColorSquare class="bg-yellow-950" to-be-copied="#422006">#422006</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Lime -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-lime-50" to-be-copied="#f7fee7">#f7fee7</ColorSquare>
             <ColorSquare class="bg-lime-100" to-be-copied="#ecfccb">#ecfccb</ColorSquare>
             <ColorSquare class="bg-lime-200" to-be-copied="#d9f99d">#d9f99d</ColorSquare>
@@ -158,10 +158,10 @@
             <ColorSquare class="bg-lime-800" to-be-copied="#3f6212">#3f6212</ColorSquare>
             <ColorSquare class="bg-lime-900" to-be-copied="#365314">#365314</ColorSquare>
             <ColorSquare class="bg-lime-950" to-be-copied="#1a2e05">#1a2e05</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Green -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-green-50" to-be-copied="#f0fdf4">#f0fdf4</ColorSquare>
             <ColorSquare class="bg-green-100" to-be-copied="#dcfce7">#dcfce7</ColorSquare>
             <ColorSquare class="bg-green-200" to-be-copied="#bbf7d0">#bbf7d0</ColorSquare>
@@ -173,10 +173,10 @@
             <ColorSquare class="bg-green-800" to-be-copied="#166534">#166534</ColorSquare>
             <ColorSquare class="bg-green-900" to-be-copied="#14532d">#14532d</ColorSquare>
             <ColorSquare class="bg-green-950" to-be-copied="#052e16">#052e16</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Emerald -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-emerald-50" to-be-copied="#ecfdf5">#ecfdf5</ColorSquare>
             <ColorSquare class="bg-emerald-100" to-be-copied="#d1fae5">#d1fae5</ColorSquare>
             <ColorSquare class="bg-emerald-200" to-be-copied="#a7f3d0">#a7f3d0</ColorSquare>
@@ -188,10 +188,10 @@
             <ColorSquare class="bg-emerald-800" to-be-copied="#065f46">#065f46</ColorSquare>
             <ColorSquare class="bg-emerald-900" to-be-copied="#064e3b">#064e3b</ColorSquare>
             <ColorSquare class="bg-emerald-950" to-be-copied="#022c22">#022c22</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Teal -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-teal-50" to-be-copied="#f0fdfa">#f0fdfa</ColorSquare>
             <ColorSquare class="bg-teal-100" to-be-copied="#ccfbf1">#ccfbf1</ColorSquare>
             <ColorSquare class="bg-teal-200" to-be-copied="#99f6e4">#99f6e4</ColorSquare>
@@ -203,10 +203,10 @@
             <ColorSquare class="bg-teal-800" to-be-copied="#115e59">#115e59</ColorSquare>
             <ColorSquare class="bg-teal-900" to-be-copied="#134e4a">#134e4a</ColorSquare>
             <ColorSquare class="bg-teal-950" to-be-copied="#042f2e">#042f2e</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Cyan -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-cyan-50" to-be-copied="#ecfeff">#ecfeff</ColorSquare>
             <ColorSquare class="bg-cyan-100" to-be-copied="#cffafe">#cffafe</ColorSquare>
             <ColorSquare class="bg-cyan-200" to-be-copied="#a5f3fc">#a5f3fc</ColorSquare>
@@ -218,10 +218,10 @@
             <ColorSquare class="bg-cyan-800" to-be-copied="#155e75">#155e75</ColorSquare>
             <ColorSquare class="bg-cyan-900" to-be-copied="#164e63">#164e63</ColorSquare>
             <ColorSquare class="bg-cyan-950" to-be-copied="#083344">#083344</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Sky -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-sky-50" to-be-copied="#f0f9ff">#f0f9ff</ColorSquare>
             <ColorSquare class="bg-sky-100" to-be-copied="#e0f2fe">#e0f2fe</ColorSquare>
             <ColorSquare class="bg-sky-200" to-be-copied="#bae6fd">#bae6fd</ColorSquare>
@@ -233,10 +233,10 @@
             <ColorSquare class="bg-sky-800" to-be-copied="#075985">#075985</ColorSquare>
             <ColorSquare class="bg-sky-900" to-be-copied="#0c4a6e">#0c4a6e</ColorSquare>
             <ColorSquare class="bg-sky-950" to-be-copied="#082f49">#082f49</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Blue -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-blue-50" to-be-copied="#eff6ff">#eff6ff</ColorSquare>
             <ColorSquare class="bg-blue-100" to-be-copied="#dbeafe">#dbeafe</ColorSquare>
             <ColorSquare class="bg-blue-200" to-be-copied="#bfdbfe">#bfdbfe</ColorSquare>
@@ -248,10 +248,10 @@
             <ColorSquare class="bg-blue-800" to-be-copied="#1e40af">#1e40af</ColorSquare>
             <ColorSquare class="bg-blue-900" to-be-copied="#1e3a8a">#1e3a8a</ColorSquare>
             <ColorSquare class="bg-blue-950" to-be-copied="#172554">#172554</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Indigo -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-indigo-50" to-be-copied="#eef2ff">#eef2ff</ColorSquare>
             <ColorSquare class="bg-indigo-100" to-be-copied="#e0e7ff">#e0e7ff</ColorSquare>
             <ColorSquare class="bg-indigo-200" to-be-copied="#c7d2fe">#c7d2fe</ColorSquare>
@@ -263,10 +263,10 @@
             <ColorSquare class="bg-indigo-800" to-be-copied="#3730a3">#3730a3</ColorSquare>
             <ColorSquare class="bg-indigo-900" to-be-copied="#312e81">#312e81</ColorSquare>
             <ColorSquare class="bg-indigo-950" to-be-copied="#1e1b4b">#1e1b4b</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Violet -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-violet-50" to-be-copied="#f5f3ff">#f5f3ff</ColorSquare>
             <ColorSquare class="bg-violet-100" to-be-copied="#ede9fe">#ede9fe</ColorSquare>
             <ColorSquare class="bg-violet-200" to-be-copied="#ddd6fe">#ddd6fe</ColorSquare>
@@ -278,10 +278,10 @@
             <ColorSquare class="bg-violet-800" to-be-copied="#5b21b6">#5b21b6</ColorSquare>
             <ColorSquare class="bg-violet-900" to-be-copied="#4c1d95">#4c1d95</ColorSquare>
             <ColorSquare class="bg-violet-950" to-be-copied="#2e1065">#2e1065</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Purple -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-purple-50" to-be-copied="#faf5ff">#faf5ff</ColorSquare>
             <ColorSquare class="bg-purple-100" to-be-copied="#f3e8ff">#f3e8ff</ColorSquare>
             <ColorSquare class="bg-purple-200" to-be-copied="#e9d5ff">#e9d5ff</ColorSquare>
@@ -293,10 +293,10 @@
             <ColorSquare class="bg-purple-800" to-be-copied="#6b21a8">#6b21a8</ColorSquare>
             <ColorSquare class="bg-purple-900" to-be-copied="#581c87">#581c87</ColorSquare>
             <ColorSquare class="bg-purple-950" to-be-copied="#3b0764">#3b0764</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Fuchsia -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-fuchsia-50" to-be-copied="#fdf4ff">#fdf4ff</ColorSquare>
             <ColorSquare class="bg-fuchsia-100" to-be-copied="#fae8ff">#fae8ff</ColorSquare>
             <ColorSquare class="bg-fuchsia-200" to-be-copied="#f5d0fe">#f5d0fe</ColorSquare>
@@ -308,10 +308,10 @@
             <ColorSquare class="bg-fuchsia-800" to-be-copied="#86198f">#86198f</ColorSquare>
             <ColorSquare class="bg-fuchsia-900" to-be-copied="#701a75">#701a75</ColorSquare>
             <ColorSquare class="bg-fuchsia-950" to-be-copied="#4a044e">#4a044e</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Pink -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-pink-50" to-be-copied="#fdf2f8">#fdf2f8</ColorSquare>
             <ColorSquare class="bg-pink-100" to-be-copied="#fce7f3">#fce7f3</ColorSquare>
             <ColorSquare class="bg-pink-200" to-be-copied="#fbcfe8">#fbcfe8</ColorSquare>
@@ -323,10 +323,10 @@
             <ColorSquare class="bg-pink-800" to-be-copied="#9d174d">#9d174d</ColorSquare>
             <ColorSquare class="bg-pink-900" to-be-copied="#831843">#831843</ColorSquare>
             <ColorSquare class="bg-pink-950" to-be-copied="#500724">#500724</ColorSquare>
-        </div>
+        </ShadeGrid>
 
         <!-- Rose -->
-        <div class="grid w-96">
+        <ShadeGrid>
             <ColorSquare class="bg-rose-50" to-be-copied="#fff1f2">#fff1f2</ColorSquare>
             <ColorSquare class="bg-rose-100" to-be-copied="#ffe4e6">#ffe4e6</ColorSquare>
             <ColorSquare class="bg-rose-200" to-be-copied="#fecdd3">#fecdd3</ColorSquare>
@@ -338,7 +338,7 @@
             <ColorSquare class="bg-rose-800" to-be-copied="#9f1239">#9f1239</ColorSquare>
             <ColorSquare class="bg-rose-900" to-be-copied="#881337">#881337</ColorSquare>
             <ColorSquare class="bg-rose-950" to-be-copied="#4c0519">#4c0519</ColorSquare>
-        </div>
+        </ShadeGrid>
     </main>
 </template>
 
@@ -346,6 +346,7 @@
 import { useWindowSize, useScreenOrientation } from "@vueuse/core";
 import { Icon } from "@iconify/vue";
 
+import ShadeGrid from "./components/ShadeGrid.vue";
 import ColorSquare from "./components/ColorSquare.vue";
 
 const { width } = useWindowSize();
