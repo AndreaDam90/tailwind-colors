@@ -1,15 +1,13 @@
 <template>
     <!-- Schermata Mobile -->
-    <div
-        v-if="width <= 1024 && orientation === 'portrait-primary'"
-        class="flex h-screen w-screen flex-col items-center justify-center gap-5 bg-slate-900 p-5 text-white">
+    <template class="flex h-screen w-screen flex-col items-center justify-center gap-5 bg-slate-900 p-5 text-white xl:hidden">
         <h1 class="text-center text-5xl">Tailwind Colors</h1>
         <h2 class="text-2xl italic">by Andrea Damiani</h2>
-        <Icon icon="solar:smartphone-rotate-orientation-linear" class="text-9xl" />
-        <h2 class="text-center text-3xl">Put your device in Landscape Mode in order to use this app.</h2>
-    </div>
+        <Icon icon="mdi:smartphone-off" class="text-9xl" />
+        <h2 class="text-center text-3xl">This App is only available on large screens.</h2>
+    </template>
 
-    <main v-else class="flex h-screen">
+    <main class="hidden h-screen xl:flex">
         <!-- Table -->
         <ShadeGrid>
             <div class="flex w-full items-center justify-center font-semibold">Value</div>
@@ -381,12 +379,8 @@
 </template>
 
 <script setup>
-import { useWindowSize, useScreenOrientation } from "@vueuse/core";
 import { Icon } from "@iconify/vue";
 
 import ShadeGrid from "./components/ShadeGrid.vue";
 import ColorSquare from "./components/ColorSquare.vue";
-
-const { width } = useWindowSize();
-const { orientation } = useScreenOrientation();
 </script>
