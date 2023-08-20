@@ -1,13 +1,13 @@
 <template>
     <!-- Schermata Mobile -->
-    <template class="flex h-screen w-screen flex-col items-center justify-center gap-5 bg-slate-900 p-5 text-white xl:hidden">
+    <div v-if="onMobile" class="flex h-screen w-screen flex-col items-center justify-center gap-5 bg-slate-900 p-5 text-white">
         <h1 class="text-center text-5xl">Tailwind Colors</h1>
         <h2 class="text-2xl italic">by Andrea Damiani</h2>
         <Icon icon="mdi:smartphone-off" class="text-9xl" />
         <h2 class="text-center text-3xl">This App is only available on large screens.</h2>
-    </template>
+    </div>
 
-    <main class="hidden h-screen xl:flex">
+    <main class="flex h-screen xl:text-sm 2xl:text-base">
         <!-- Table -->
         <ShadeGrid>
             <div class="flex w-full items-center justify-center font-semibold">Value</div>
@@ -379,8 +379,12 @@
 </template>
 
 <script setup>
+import { useBreakpoints, breakpointsTailwind } from "@vueuse/core";
 import { Icon } from "@iconify/vue";
 
 import ShadeGrid from "./components/ShadeGrid.vue";
 import ColorSquare from "./components/ColorSquare.vue";
+
+const breakpoints = useBreakpoints(breakpointsTailwind);
+const onMobile = breakpoints.smaller("xl");
 </script>
