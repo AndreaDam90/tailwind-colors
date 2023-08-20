@@ -7,7 +7,7 @@
         <h2 class="text-center text-3xl">This App is only available on large screens.</h2>
     </div>
 
-    <main class="flex h-screen xl:text-sm 2xl:text-base">
+    <main v-else class="flex h-screen xl:text-sm 2xl:text-base">
         <!-- Table -->
         <ShadeGrid>
             <div class="flex w-full items-center justify-center font-semibold">Value</div>
